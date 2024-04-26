@@ -1,21 +1,70 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html>
 
-  {%- include head.html -%}
+<head>
+  <link rel="icon" type="image/png" href="/images/Flash_Logo.png" sizes="32x32" />
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-  <body>
+  {% include meta.html %}
 
-    {%- include header.html -%}
+  <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml" />
 
-      </div>
-    </main>
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  {% seo %}
+</head>
 
-    {%- include footer.html -%}
+<body>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-  </body>
+        <div class="site-info">
+          <center>
+            <h3 class="site-name"><a href="{{ site.baseurl }}/"><b>{{ site.name }}</b></a></h3>
+          </center>
+          <center>
+            <h4 class="site-description">{{ site.description }}</h4>
+          </center>
+          <center><a href="https://twitter.com/akankshabindal?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+              data-size="large" data-show-screen-name="false" data-show-count="true">Follow @akankshabindal</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </center>
+        </div>
+
+
+        <nav>
+          <a href="{{ site.baseurl }}/akanksha-bindal/blog"><b>Blog</b></a>
+          <a href="{{ site.baseurl }}/akanksha-bindal/experience"><b>Experience</b></a>
+          <a href="{{ site.baseurl }}/akanksha-bindal/publications"><b>Research & Services</b></a>
+          <a href="{{ site.baseurl }}/akanksha-bindal/projects"><b>Projects</b></a>
+          <a href="{{ site.baseurl }}/akanksha-bindal/features"><b>Features</b></a>
+          <a href="{{ site.baseurl }}/akanksha-bindal/aboutme"><b>About Me</b></a>
+        </nav>
+
+      </header>
+    </div>
+  </div>
+
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
+    </div>
+  </div>
+
+  {% include analytics.html %}
+</body>
 
 </html>
