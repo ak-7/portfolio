@@ -1,7 +1,4 @@
----
----
-
-//
+--- --- //
 // IMPORTS
 //
 
@@ -32,7 +29,12 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
@@ -46,7 +48,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-sub, sup {
+sub,
+sup {
   /* Specified in % so that the sup/sup is the
      right size relative to the surrounding text */
   font-size: 75%;
@@ -77,6 +80,7 @@ sub {
 
 h1 {
   font-size: 30px;
+
   a {
     color: inherit;
   }
@@ -106,13 +110,16 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: #FF8A33;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    color: #33a8ff;
   }
 }
 
-ul, ol {
+ul,
+ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -125,23 +132,29 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-li{
+li {
   margin: 8px 0;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
@@ -164,6 +177,7 @@ img {
   color: $black;
   background: $lightGray;
 }
+
 ::selection {
   color: $black;
   background: $lightGray;
@@ -173,12 +187,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -276,7 +290,7 @@ nav {
   }
 
   a:hover {
-    color: #FF8A33
+    color: #33a8ff
   }
 }
 
@@ -288,12 +302,12 @@ nav {
   flex: 1 0 auto;
 }
 
-.posts > .post {
+.posts>.post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
-.posts > .post:last-child {
+.posts>.post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
 }
@@ -319,13 +333,13 @@ nav {
 }
 
 .gist {
-   max-width:350px;
-   overflow:auto;
+  max-width: 350px;
+  overflow: auto;
 }
 
 .gist .blob-wrapper.data {
-   max-height:400px;
-   overflow:auto;
+  max-height: 400px;
+  overflow: auto;
 }
 
 .wrapper-footer {
@@ -357,9 +371,11 @@ footer {
   .column {
     width: 100%;
   }
+
   .leftcol {
     width: 100%;
   }
+
   .rightcol {
     width: 100%;
   }
@@ -377,92 +393,100 @@ footer {
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro");
 
 .card {
-    width: 100%;
-    margin: 0px auto;
-    background-color: white;
-    /* box-shadow: 0px 5px 20px #555; */
-    margin-top: 2em;
-    margin-bottom: 2em;
-    border: 2px solid #ded8d8;
-    border-radius: 10px;
+  width: 100%;
+  margin: 0px auto;
+  background-color: white;
+  /* box-shadow: 0px 5px 20px #555; */
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: 2px solid #ded8d8;
+  border-radius: 10px;
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .card:hover .card-image img {
-	width: 100%;
-	filter: grayscale(0);
+  width: 100%;
+  filter: grayscale(0);
 }
+
 .card-image {
-	height: 12em;
-	position: relative;
-	overflow: hidden;
+  height: 12em;
+  position: relative;
+  overflow: hidden;
 }
+
 .card-image img {
-	width: 50%;
-	position: absolute;
-	top: 55%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	filter: grayscale(1);
-	transition-property: filter width;
-	transition-duration: .3s;
+  width: 50%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: grayscale(1);
+  transition-property: filter width;
+  transition-duration: .3s;
 }
+
 .card-body {
-	text-align: left;
-	padding: 0em 2em 1em;
-	box-sizing: border-box;
+  text-align: left;
+  padding: 0em 2em 1em;
+  box-sizing: border-box;
 }
+
 .card-date {
-	font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
 .card-date,
 .card-title {
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
+
 .card-title-2 {
-	text-align: center;
-	font-weight: bold;
-	letter-spacing: 1px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
+
 .card-date,
 .card-exceprt,
 {
-	color: #606060;
+color: #606060;
 }
 
 .btn {
-    padding: 5px 15px;
-    /* text-decoration: none; */
-    background: transparent;
-    /* border: 2px solid #f27c7c; */
-    color: #1b95e0;
-    display: inline-block;
-    /* position: relative; */
-    text-transform: uppercase;
-    font-size: 15px;
-    /* -webkit-border-radius: 5px; */
-    /* -moz-border-radius: 5px; */
-    /* -ms-border-radius: 5px; */
-    /* border-radius: 5px; */
-    /* -webkit-transition: background 0.3s ease; */
-    /* -moz-transition: background 0.3s ease; */
-    /* -ms-transition: background 0.3s ease; */
-    /* transition: background 0.3s ease; */
-    /* -webkit-box-shadow: 2px 2px 0 #f27c7c; */
-    /* -moz-box-shadow: 2px 2px 0 #f27c7c; */
-    /* -ms-box-shadow: 2px 2px 0 #f27c7c; */
-    /* box-shadow: 2px 2px 0 #f27c7c; */
+  padding: 5px 15px;
+  /* text-decoration: none; */
+  background: transparent;
+  /* border: 2px solid #f27c7c; */
+  color: #1b95e0;
+  display: inline-block;
+  /* position: relative; */
+  text-transform: uppercase;
+  font-size: 15px;
+  /* -webkit-border-radius: 5px; */
+  /* -moz-border-radius: 5px; */
+  /* -ms-border-radius: 5px; */
+  /* border-radius: 5px; */
+  /* -webkit-transition: background 0.3s ease; */
+  /* -moz-transition: background 0.3s ease; */
+  /* -ms-transition: background 0.3s ease; */
+  /* transition: background 0.3s ease; */
+  /* -webkit-box-shadow: 2px 2px 0 #f27c7c; */
+  /* -moz-box-shadow: 2px 2px 0 #f27c7c; */
+  /* -ms-box-shadow: 2px 2px 0 #f27c7c; */
+  /* box-shadow: 2px 2px 0 #f27c7c; */
 }
+
 .btn:hover {
   box-shadow: none;
   top: 2px;
@@ -474,7 +498,7 @@ footer {
 }
 
 summary {
-    color: #1b95e0;	
+  color: #1b95e0;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
