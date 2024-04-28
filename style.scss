@@ -1,9 +1,13 @@
---- --- //
+---
+---
+//
 // IMPORTS
 //
 
 @import "reset";
 @import "variables";
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro");
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -302,6 +306,10 @@ nav {
   flex: 1 0 auto;
 }
 
+.footnote {
+  font-size: 8px;
+}
+
 .posts>.post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -360,7 +368,7 @@ footer {
 }
 
 .leftcol {
-  width: 70%;
+  width: 50%;
 }
 
 .rightcol {
@@ -389,8 +397,6 @@ footer {
 }
 
 /* Projects */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro");
 
 .card {
   width: 100%;
