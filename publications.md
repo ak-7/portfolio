@@ -30,8 +30,15 @@ Served as Program Committee Member/Invited Reviewer at some of the leading confe
 <!--   <center> <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B08RN47C5T&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_1mIeGbSZ013C3&tag=mobile0a1329f-20" ></iframe> </center> -->
 
 ### Publications<a name="papers"></a>
+* [**Arxiv 2024**](https://arxiv.org/pdf/2405.11344)
 
-* [**ICASSP 2022**](https://2022.ieeeicassp.org/)
+  * **Streaming on-device detection of device directed speech from voice and touch-based invocation**
+
+    **Akanksha Bindal**, Sudarshan Ramanujam, Dave Golland, TJ Hazen, Tina Jiang, Fengyu Zhang, Peng Yan. IMPROVED CONTENT UNDERSTANDING WITH EFFECTIVE USE OF MULTI-TASK
+CONTRASTIVE LEARNING. 2024
+  * [Paper](https://ieeexplore.ieee.org/abstract/document/9747107)
+
+* [**ARXIV 2024**](https://arxiv.org/pdf/2405.11344)
 
   * **Streaming on-device detection of device directed speech from voice and touch-based invocation**
     
