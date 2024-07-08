@@ -4,6 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-<div class="row">
+<div>
+Blog
    <embed src="https://akankshabindal.substack.com/" style="width:500px; height: 300px;">
-  </div>
+</div>
