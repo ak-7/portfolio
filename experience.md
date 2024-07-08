@@ -7,7 +7,7 @@ permalink: /experience/
 
 <!-- <details> -->
 
-<!-- <summary><b>Senior Machine Learning Engineer @ LinkedIn</b> [August 2022 - July 2019]</summary> -->
+<!-- <summary><b>Senior Machine Learning Engineer @ LinkedIn</b> [August 2022 - Present]</summary> -->
 **Senior Machine Learning Engineer @ LinkedIn** [August 2022 - Present]
 
   Senior AI/ML Tech Lead responsible for leading multiple cross functional initiatives within Feed Applied AI Team.
@@ -26,10 +26,9 @@ permalink: /experience/
 <br>
 <!-- <details> -->
 
-<!-- <summary><b>Senior Machine Learning Engineer @ LinkedIn</b> [August 2022 - July 2019]</summary> -->
-**Machine Learning Engineer @ Instagram** [December 2022 - August 2022]
+**Machine Learning Engineer @ Instagram** [December 2021 - August 2022]
 
-Led the advancement of the core machine learning algorithm to analyze user interactions within Instagram Business Messaging, resulting in a significant lift in user engagement. Implemented calibration, user interaction and affinity modeling techniques, leading to a 0.6% sessions, 0.3% retention and 1.4% revenue increase.
+Led the advancement of the core machine learning algorithm to analyze user interactions within Instagram Business Messaging, resulting in a significant lift in user engagement. Implemented calibration, user interaction and affinity modeling techniques, leading to a 0.2% sessions, 0.3% retention and 1.4% revenue increase.
 
 
 <!-- </details> -->

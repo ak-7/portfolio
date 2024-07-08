@@ -4,7 +4,7 @@ permalink: /publication/
 ---
 
 ## Research & Services
-### [Services](#services) | [Book](#book) | [Publications](#papers) | [Datasets](#datasets)
+### [Services](#services) | [Publications](#papers) | [Datasets](#datasets)
 <!-- 
 * [Scholar Profile](https://scholar.google.com/citations?user={{ site.data.scholar.id }})
 * Citations: {{ site.data.scholar.citations }}
