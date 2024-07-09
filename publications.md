@@ -14,20 +14,12 @@ permalink: /publication/
 ### Services<a name="services"></a>
 
 Served as Program Committee Member/Invited Reviewer at some of the leading conferences in Machine Learning:
-* [**RecSys 2022**](https://recsys.acm.org/recsys22/)
-* [**TORS 2022**](https://dl.acm.org/journal/tors)
-* [**ICML 2022**](https://icml.cc/Conferences/2022)
-* [**KDD 2022**](https://www.kdd.org/kdd2022/)
-* [**SIGIR 2022**](https://sigir.org/sigir2022/) 
-* [**ECML-PKDD 2022**](https://2022.ecmlpkdd.org/) 
-* [**ICWSM 2022**](https://www.icwsm.org/2022/index.html/) 
-* [**DBKDA 2022**](https://www.iaria.org/conferences2022/ComDBKDA22.html) 
-* [**SciPy 2019**](https://www.scipy2019.scipy.org/) 
+* [**ACML 2024**](https://www.acml-conf.org/2024/)
+* [**ICLR 2024**](https://iclr.cc/)
+* [**ICML 2024**](https://icml.cc/Conferences/2022)
+* [**AAAI 2023**](https://sites.google.com/view/aifin-aaai2024/home)
+* [**ICASSP 2023**](https://xai-sa-workshop.github.io/web//)
 
-<!-- 
-### Book<a name="book"></a>
-  -->
-<!--   <center> <iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B08RN47C5T&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_1mIeGbSZ013C3&tag=mobile0a1329f-20" ></iframe> </center> -->
 
 ### Publications<a name="papers"></a>
 * [**Arxiv 2024**](https://arxiv.org/pdf/2405.11344)
